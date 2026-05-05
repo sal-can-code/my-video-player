@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Video Player</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="player-container" id="playerContainer">
+
+<!-- Video Element -->
+<video id="videoPlayer"></video>
+
+<!-- Progress / Buffer Bar -->
+<div class="progress-bar-container" id="progressContainer">
+<div class="progress-bar-track" id="progressTrack">
+  <div class="buffer-bar" id="bufferBar"></div>
+  <div class="seek-bar" id="seekBar"></div>
+</div>
+<div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+</div>
+
+<!-- Controls -->
+<div class="controls" id="controls">
+  <div class="buttons">
+    <button id="prevBtn">⏮ Prev</button>
+    <button id="rewindBtn">⏪ -10s</button>
+    <button id="playPauseBtn">▶ Play</button>
+    <button id="forwardBtn">⏩ +10s</button>
+    <button id="nextBtn">Next ⏭</button>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
